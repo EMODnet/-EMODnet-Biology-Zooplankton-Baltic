@@ -77,16 +77,15 @@ The full list of the species is:
 
 [4] J.-M. Beckers, A. Barth, C. Troupin, and A. Alvera-Azcárate. Approximate and efficient methods to assess error fields in spatial gridding with data interpolating variational analysis (DIVA). Journal of Atmospheric and Oceanic Technology, 31:515–530, 2014. doi: [10.1175/JTECH-D-13-00130.1](https://doi.org/10.1175/JTECH-D-13-00130.1).
 
-# Link to code
+# Code
 
 The data products was made using DIVAnd in version 2.1.1 (https://github.com/gher-ulg/DIVAnd.jl) and Knet in version 0.9.2 (https://github.com/denizyuret/Knet.jl)
-and Julia 0.6.4.
+and Julia 0.6.4. See the REQUIRE file for a fill list of dependencies. The main entry point of this code is the file `emodnet_bio3.jl`. All input data is assumed to be in the directory `$HOME/tmp/Emodnet-Bio` (or the directory defined in the environement variable `DATADIR`)
 
+<!--
 Link to "Baltic Zooplankton Data Preparation" from Peter M.J. Herman and Lisa Sundqvist
-
 # Link to data products
 
 * within EMODnet geoviewer
 * As netCDF: https://dox.ulg.ac.be/index.php/s/GTjQHky8I5zSHLF/download (to be transferred to VLIZ server)
-
-
+-->

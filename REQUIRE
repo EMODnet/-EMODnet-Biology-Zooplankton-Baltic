@@ -1,0 +1,6 @@
+julia 0.6
+Knet 0.9.2
+DIVAnd 2.1.1
+NCDatasets
+Missings
+Interpolations
