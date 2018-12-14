@@ -2,7 +2,12 @@
 
 #  Input data
 
-* Zookplankton observations for 40 different species from the Baltic from the Swedish SHARK database from EMODnet Biology, the Finnish data from the [NOAA Copepod database](https://www.st.nmfs.noaa.gov/copepod/), the German and Polish from the HELCOM DOME database. By the finishing date of the project, all these dataset will be integrated in the EMODnet Biology database.
+* Zooplankton observations for 40 different species from the Baltic from
+    * the Swedish SHARK database from EMODnet Biology: http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=2452
+    * the Finnish data from the [NOAA Copepod database](https://www.st.nmfs.noaa.gov/copepod/): http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5726 (download available [here](https://www.st.nmfs.noaa.gov/copepod/data/fi-05101/copepod__fi-05101.zip))
+    * the German and Polish from the HELCOM DOME database.
+    
+    *All these dataset will be integrated in the EMODnet Biology database*
 * [Dissolved oxygen](http://www.emodnet-chemistry.eu/products/catalogue#/metadata/087a72c0-c243-11e8-bac2-5ce0c5469bc7) (from EMODnet Chemistry)
 * [Salinity](https://www.seadatanet.org/Products#/metadata/bf35a7c5-c843-4a23-8040-07ddcf3d8e71) (from SeaDataNet)
 * [Temperature](https://www.seadatanet.org/Products#/metadata/bf35a7c5-c843-4a23-8040-07ddcf3d8e71) (from SeaDataNet)
@@ -84,7 +89,10 @@ The full list of the species is:
 # Code
 
 The data products was made using DIVAnd in version 2.1.1 (https://github.com/gher-ulg/DIVAnd.jl) and Knet in version 0.9.2 (https://github.com/denizyuret/Knet.jl)
-and Julia 0.6.4. See the REQUIRE file for a fill list of dependencies. The main entry point of this code is the file `emodnet_bio3.jl`. All input data is assumed to be in the directory `$HOME/tmp/Emodnet-Bio` (or the directory defined in the environement variable `DATADIR`)
+and Julia 0.6.4. See the [REQUIRE file](https://github.com/EMODnet/EMODnet-Biology-Zooplankton-Baltic/blob/master/REQUIRE) for a fill list of dependencies.
+
+The main entry point of this code is the file [`emodnet_bio3.jl`](https://github.com/EMODnet/EMODnet-Biology-Zooplankton-Baltic/blob/master/src/emodnet_bio3.jl).
+All input data is assumed to be in the directory `$HOME/tmp/Emodnet-Bio` (or the directory defined in the environement variable `DATADIR`)
 
 <!--
 Link to "Baltic Zooplankton Data Preparation" from Peter M.J. Herman and Lisa Sundqvist
