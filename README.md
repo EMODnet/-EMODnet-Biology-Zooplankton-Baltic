@@ -20,6 +20,20 @@ The full data preparation workflow can be viewed on [this Github page](https://g
 
 The R Markdown file used to generate this overview is available [here](https://github.com/EMODnet/EMODnet-Biology-Zooplankton-Baltic/blob/master/BaltizZPprepData.Rmd).
 
+# Product generation
+
+The data products was made using
+
+* DIVAnd in version 2.1.1 (https://github.com/gher-ulg/DIVAnd.jl)
+* Knet in version 0.9.2 (https://github.com/denizyuret/Knet.jl)
+* Julia 0.6.4. (https://julialang.org/downloads/)
+
+See the [REQUIRE file](https://github.com/EMODnet/EMODnet-Biology-Zooplankton-Baltic/blob/master/REQUIRE) for a fill list of dependencies.
+
+The main entry point of this code is the file [`emodnet_bio3.jl`](https://github.com/EMODnet/EMODnet-Biology-Zooplankton-Baltic/blob/master/src/emodnet_bio3.jl).
+
+All input data is assumed to be in the directory `$HOME/tmp/Emodnet-Bio` (or the directory defined in the environement variable `DATADIR`)
+
 # Data product description
 
 A gridded data product for 40 zooplankton species using DIVAnd[1,2] and the neural network library Knet[3]. The neural network uses the variables dissolved oxygen, salinity, temperature, chlorophyll concentration bathymetry and the distance from coast as input. Additionally the position (latitude and longitude) and the year are provided to the neural network.
@@ -86,13 +100,7 @@ The full list of the species is:
 
 [4] J.-M. Beckers, A. Barth, C. Troupin, and A. Alvera-Azcárate. Approximate and efficient methods to assess error fields in spatial gridding with data interpolating variational analysis (DIVA). Journal of Atmospheric and Oceanic Technology, 31:515–530, 2014. doi: [10.1175/JTECH-D-13-00130.1](https://doi.org/10.1175/JTECH-D-13-00130.1).
 
-# Code
 
-The data products was made using DIVAnd in version 2.1.1 (https://github.com/gher-ulg/DIVAnd.jl) and Knet in version 0.9.2 (https://github.com/denizyuret/Knet.jl)
-and Julia 0.6.4. See the [REQUIRE file](https://github.com/EMODnet/EMODnet-Biology-Zooplankton-Baltic/blob/master/REQUIRE) for a fill list of dependencies.
-
-The main entry point of this code is the file [`emodnet_bio3.jl`](https://github.com/EMODnet/EMODnet-Biology-Zooplankton-Baltic/blob/master/src/emodnet_bio3.jl).
-All input data is assumed to be in the directory `$HOME/tmp/Emodnet-Bio` (or the directory defined in the environement variable `DATADIR`)
 
 <!--
 Link to "Baltic Zooplankton Data Preparation" from Peter M.J. Herman and Lisa Sundqvist
