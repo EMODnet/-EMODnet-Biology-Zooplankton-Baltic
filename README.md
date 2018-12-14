@@ -12,6 +12,7 @@
 
 # Data preparation
 The full data preparation workflow can be viewed on [this Github page](https://github.com/EMODnet/EMODnet-Biology-Zooplankton-Baltic/blob/master/BaltizZPprepData.pdf).
+
 The R Markdown file used to generate this overview is available [here](https://github.com/EMODnet/EMODnet-Biology-Zooplankton-Baltic/blob/master/BaltizZPprepData.Rmd).
 
 # Data product description
