@@ -10,6 +10,9 @@
 * [Bathymetry](https://www.gebco.net/) (from GEBCO)
 * [Distance from coast](https://gcmd.nasa.gov/KeywordSearch/Metadata.do?Portal=idn_ceos&KeywordPath=%5BData_Center%3A+Short_Name%3D%27PacIOOS%27%5D&OrigMetadataNode=GCMD&EntryId=dist2coast_1deg&MetadataView=Full&MetadataType=0&lbnode=mdlb1) (from GSFC, NASA)
 
+# Data preparation
+The full data preparation workflow can be viewed on [this Github page](https://github.com/EMODnet/EMODnet-Biology-Zooplankton-Baltic/blob/master/BaltizZPprepData.pdf).
+The R Markdown file used to generate this overview is available [here](https://github.com/EMODnet/EMODnet-Biology-Zooplankton-Baltic/blob/master/BaltizZPprepData.Rmd).
 
 # Data product description
 
