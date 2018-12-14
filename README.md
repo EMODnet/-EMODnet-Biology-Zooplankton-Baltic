@@ -11,7 +11,7 @@
 * [Dissolved oxygen](http://www.emodnet-chemistry.eu/products/catalogue#/metadata/087a72c0-c243-11e8-bac2-5ce0c5469bc7) (from EMODnet Chemistry)
 * [Salinity](https://www.seadatanet.org/Products#/metadata/bf35a7c5-c843-4a23-8040-07ddcf3d8e71) (from SeaDataNet)
 * [Temperature](https://www.seadatanet.org/Products#/metadata/bf35a7c5-c843-4a23-8040-07ddcf3d8e71) (from SeaDataNet)
-* [https://oceancolor.gsfc.nasa.gov/l3/](Chlorophyll concentration) (MODIS-Aqua from NASA)
+* ([Chlorophyll concentration](https://oceancolor.gsfc.nasa.gov/l3/)) (MODIS-Aqua from NASA)
 * [Bathymetry](https://www.gebco.net/) (from GEBCO)
 * [Distance from coast](https://gcmd.nasa.gov/KeywordSearch/Metadata.do?Portal=idn_ceos&KeywordPath=%5BData_Center%3A+Short_Name%3D%27PacIOOS%27%5D&OrigMetadataNode=GCMD&EntryId=dist2coast_1deg&MetadataView=Full&MetadataType=0&lbnode=mdlb1) (from GSFC, NASA)
 
