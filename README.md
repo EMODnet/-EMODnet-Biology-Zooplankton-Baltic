@@ -1,3 +1,5 @@
+*Biological data processing by Peter M.J. Herman, Neural network modelling by Alexander Barth*
+
 # EMODnet-Biology-Zooplankton-Baltic
 
 #  Input data
