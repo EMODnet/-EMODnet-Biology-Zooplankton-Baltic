@@ -2,6 +2,10 @@
 
 # EMODnet-Biology-Zooplankton-Baltic
 
+This is the Github repository of the EMODnet Biology product described here:
+
+http://www.emodnet-biology.eu/neural-network-modelling-baltic-zooplankton-abundances
+
 #  Input data
 
 * Zooplankton observations for 40 different species from the Baltic from
