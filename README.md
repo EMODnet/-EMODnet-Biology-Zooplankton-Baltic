@@ -30,7 +30,11 @@ The R Markdown file used to generate this overview is available [here](https://g
 
 The data products was made using
 
-* DIVAnd in version 2.1.1 (https://github.com/gher-ulg/DIVAnd.jl)
+* DIVAnd in version 2.1.1 (https://github.com/gher-ulg/DIVAnd.jl) 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1466985.svg)](https://doi.org/10.5281/zenodo.1466985)
+
+
 * Knet in version 0.9.2 (https://github.com/denizyuret/Knet.jl)
 * Julia 0.6.4. (https://julialang.org/downloads/)
 
