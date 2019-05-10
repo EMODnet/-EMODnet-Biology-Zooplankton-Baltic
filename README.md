@@ -49,7 +49,7 @@ Abundance values in the NetCDF files are expressed in number per m² and transfo
 
 The covers the area from  9°E to 30.8°E and 53°N to 66.1°N at a resolution of a tenth of a degree. Gridded data product for the years 2007, 2008, 2010, 2011, 2012 and 2013 have been made. No observations were available for the year 2009. The fields represent the yearly average abundance.
 
-For every specie the correlation length and signal to noise ratio is estimated using the spatial variability of the observations.
+For every species the correlation length and signal to noise ratio is estimated using the spatial variability of the observations.
 
 The interpolation error is computed using the so-called "clever poor man's error" [4].
 
