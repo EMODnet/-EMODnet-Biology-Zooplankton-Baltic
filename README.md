@@ -11,7 +11,7 @@ http://www.emodnet-biology.eu/neural-network-modelling-baltic-zooplankton-abunda
 * Zooplankton observations for 40 different species from the Baltic from
     * the Swedish SHARK database from EMODnet Biology: http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=2452
     * the Finnish data from the [NOAA Copepod database](https://www.st.nmfs.noaa.gov/copepod/): http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5726 (download available [here](https://www.st.nmfs.noaa.gov/copepod/data/fi-05101/copepod__fi-05101.zip))
-    * the German and Polish from the HELCOM DOME database.
+    * the German and Polish from the HELCOM DOME database: http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=4431
     
     *All these dataset will be integrated in the EMODnet Biology database*
 * [Dissolved oxygen](http://www.emodnet-chemistry.eu/products/catalogue#/metadata/087a72c0-c243-11e8-bac2-5ce0c5469bc7) (from EMODnet Chemistry)
